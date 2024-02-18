@@ -107,3 +107,37 @@ ul {
 .cta h3 {
     margin-top: 100px;
 }
+
+form {
+    width: 953px;
+    height: 88px;
+    background: linear-gradient(180deg, #E2E2E2 0%, #D6D7D6 100%);
+    border-radius: 40px;
+    padding: 45px 51px 45px 51px;
+    margin: 0 0 172px 0;
+}
+
+#email-input {
+    width: 642px;
+    height: 96px;
+    color: #424242;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #ECECEC;
+    border: 0px;
+    padding-left: 34px;
+}
+
+#kit-submit {
+    background-color: #FF3F3C;
+    width: 254px;
+    height: 96px;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 16px;
+}
