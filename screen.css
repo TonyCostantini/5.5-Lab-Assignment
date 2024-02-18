@@ -30,7 +30,11 @@ main {
     background: url('images/polaroid.png') no-repeat center 150px;
     background-size: 1161px auto;
     margin: 0 auto;
-    width: 1000px;
+    width: 1161px;
+}
+
+h3 {
+    width: 1161px;
 }
 
 main h3 {
@@ -57,8 +61,12 @@ main h3 {
     margin: 0;
 }
 
+p {
+    width: 1161px;
+}
+
 .details p {
-    width: 1049px;
+    width: 1161px;
     font-size: 32px;
     font-weight: 400;
     line-height: 42px;
@@ -69,6 +77,7 @@ main h3 {
 }
 
 ul {
+    width: 1161px;
     font-size: 32px;
     line-height: 42px;
     font-weight: 400;
@@ -78,7 +87,7 @@ ul {
 .list ul li {
     display: flex;
     align-items: center;
-    width: 1029px;
+    width: 953px;
     list-style-type: none;
     margin: 35px 0;
     padding: 0 0 0 70px;
@@ -109,8 +118,8 @@ ul {
 }
 
 form {
-    width: 953px;
-    height: 88px;
+    width: 1050px;
+    height: 96px;
     background: linear-gradient(180deg, #E2E2E2 0%, #D6D7D6 100%);
     border-radius: 40px;
     padding: 45px 51px 45px 51px;
@@ -118,7 +127,7 @@ form {
 }
 
 #email-input {
-    width: 642px;
+    width: 739px;
     height: 96px;
     color: #424242;
     font-size: 24px;
