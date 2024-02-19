@@ -4,32 +4,40 @@
     --main-bg-color: #E9E9E9;
     --primary-text-color: #424242;
     --accent-color: #FF3F3C;
-    --font-family: "Inter", sans-serif;
+    --font-family: Inter, sans-serif;
 }
 
 body {
     background: var(--main-bg-color);
     color: var(--primary-text-color);
-    font: var(--font-family);
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
 }
 
 header {
+    /* Other Properties */
     padding: 32px 32px 20px 32px;
     margin-bottom: 100px;
 }
 
 header h1 {
+    /* Text */
     font-size: 36px;
     font-weight: 700;
+
+    /* Other Properties */
     margin: 0;
 }
 
 main {
+    /* Image */
     background: url('images/polaroid.png') no-repeat center 150px;
-    background-size: 1161px auto;
+
+    /* Alignment */
     margin: 0 auto;
+
+    /* Dimension */
     width: 1161px;
 }
 
@@ -38,35 +46,40 @@ h3 {
 }
 
 main h3 {
+    /* Text */
     font-size: 64px;
     font-weight: 900;
     text-align: center;
+
+    /* Other Properties */
     margin-bottom: 45px;
 }
 
 .details h3 {
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 .hero {
+    /* Alignment */
     text-align: center;
+
+    /* Other Properties */
     min-height: 800px;
 }
 
 .hero h2 {
+    /* Text */
     font-size: 180px;
     font-weight: 800;
     line-height: 180px;
+
+    /* Other Properties */
     text-transform: uppercase;
     margin: 0;
 }
 
-p {
-    width: 1161px;
-}
-
 .details p {
-    width: 1161px;
+    /* Text */
     font-size: 32px;
     font-weight: 400;
     line-height: 42px;
@@ -77,17 +90,17 @@ p {
 }
 
 ul {
-    width: 1161px;
+    /* Text */
     font-size: 32px;
-    line-height: 42px;
     font-weight: 400;
+    line-height: 42px;
+
+    /* Other Properties */
     padding: 0;
 }
 
 .list ul li {
-    display: flex;
-    align-items: center;
-    width: 953px;
+    /* Other Properties */
     list-style-type: none;
     margin: 35px 0;
     padding: 0 0 0 70px;
@@ -118,35 +131,54 @@ ul {
 }
 
 form {
+    /* Color */
+    background: linear-gradient(180deg, #E2E2E2 0%, #D6D7D6 100%);
+
+    /* Dimension */
     width: 1050px;
     height: 96px;
-    background: linear-gradient(180deg, #E2E2E2 0%, #D6D7D6 100%);
+    
+    /* Other Properties */
     border-radius: 40px;
     padding: 45px 51px 45px 51px;
     margin: 0 0 172px 0;
 }
 
 #email-input {
+    /* Color */
+    background-color: #ECECEC;
+    color: #424242;
+
+    /* Diimensions */
     width: 739px;
     height: 96px;
-    color: #424242;
+    
+    /* Text */
     font-size: 24px;
     font-weight: 400;
-    background-color: #ECECEC;
+    
+    /* Other Properties */
     border: 0px;
     padding-left: 34px;
 }
 
 #kit-submit {
+    /* Colors */
     background-color: #FF3F3C;
+    color: #FFFFFF;
+
+    /* Dimensions */
     width: 254px;
     height: 96px;
-    border: none;
-    color: #FFFFFF;
-    padding: 20px;
+
+    /* Text */
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 900;
+
+    /* Other Properties */
+    border: none;
     margin-left: 16px;
+    padding: 20px;
 }
